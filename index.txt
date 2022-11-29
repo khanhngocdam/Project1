@@ -1,0 +1,7 @@
+anh       2    Line:   4  
+dam       3    Line:   1  2  
+hi        2    Line:   4  
+khanh     5    Line:   1  2  3  
+ne        1    Line:   4  
+ngoc      3    Line:   1  2  
+student   1    Line:   3  
