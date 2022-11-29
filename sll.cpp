@@ -1,3 +1,6 @@
+// Họ và tên: Đàm Ngọc Khánh
+// MSSV: 20205207
+// File này bao gồm 1 số cấu trúc của danh sách liên kết đơn, hàm khởi tạo, và hàm push 
 #include <iostream>
 #include <string>
 using namespace std;
@@ -102,7 +105,7 @@ slnode_w* sll_push_w(sllist_w *list, string w) {
 }
 
 // Hàm kiểm tra string có trong danh sách hay chưa
-int checkString(sllist_w* list, string str) {
+int checkListString(sllist_w* list, string str) {
   for (slnode_w* p = list -> front; p != NULL; p = p -> next) {
     if((p ->word).compare(str) == 0) return 0;
   }
